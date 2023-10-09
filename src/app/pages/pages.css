@@ -1,0 +1,28 @@
+.main-page-container {
+    display: flex;
+    background-color: rgb(255, 186, 186);
+    background-image: linear-gradient(180deg, rgb(235, 148, 148), rgb(238, 235, 70));
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tasks-page-container {
+    display: flex;
+    background-color: rgb(199, 186, 255);
+    background-image: linear-gradient(180deg, rgb(159, 120, 193), rgb(81, 176, 179));
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.important-page-container {
+    display: flex;
+    background-image: linear-gradient(180deg, rgb(99, 176, 220), rgb(100, 214, 201));
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

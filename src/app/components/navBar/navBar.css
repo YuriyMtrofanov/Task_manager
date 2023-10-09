@@ -1,20 +1,15 @@
 .nav-container {
     display: flex; /*по умолчанию основная ось горизонтальна слева направо*/
     background-color: rgb(142, 90, 147);
-    /*flex-wrap: wrap; /*данный параметр позволяет переносить элементы на новую строку*/
     gap: 10px; /*данное свойство устанавливает равные отступы между элементами внутри контейнера*/
-    /* flex-direction: column; */
     justify-content: space-between;
     flex-grow: 1;
     background-image: linear-gradient(180deg, rgb(118, 52, 126), rgb(189, 84, 201));
 }
 
-/*при сужении размера экрана до 650 пикселей положение основной мы переопределим
-направление основной оси на вертикальное (сверху вниз) при этом элементы будут 
-располагаться сверху вниз. По сути адаптация под мобильные устройства*/
 @media screen and (max-width: 640px) {
     .nav-container {
-        flex-direction: column; /*основная ось вертикална сверху вниз*/
+        flex-direction: column;
     }
     .nav-block {
         flex-direction: column;
@@ -31,6 +26,11 @@
     font: 700 20px "Roboto", sans-serif;
     color: rgb(227, 208, 230);
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.nav-link {
+    color: rgb(227, 208, 230);
+    text-decoration: none;
 }
 
 
